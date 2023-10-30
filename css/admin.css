@@ -1,0 +1,132 @@
+/*
+Author: Abishek Bhandari
+Theme: Restaurant management System
+
+*/
+* {
+    margin: 0px;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrapper {
+    padding: 1%;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.clearfix {
+    float: none;
+    clear: both;
+}
+
+.tbl-full {
+    width: 100%;
+}
+
+table tr th {
+    border-bottom: 1px solid black;
+    padding: 1%;
+    text-align: left;
+}
+
+table tr td {
+    padding: 1%;
+}
+
+.btn-primary {
+    background-color: #1e90ff;
+    padding: 1%;
+    color: white;
+    text-decoration: none;
+}
+
+.btn-primary:hover {
+    background-color: #3742fa;
+}
+
+.btn-secondary {
+    background-color: #7bed9f;
+    padding: 1%;
+    color: black;
+    text-decoration: none;
+}
+
+.btn-secondary:hover {
+    background-color: #2ed573;
+}
+
+.btn-danger {
+    background-color: #ff6348;
+    padding: 1%;
+    color: white;
+    text-decoration: none;
+}
+
+.btn-danger:hover {
+    background-color: #ff4757;
+}
+
+.tbl-30 {
+    width: 30%;
+}
+
+/* Menu Css */
+.menu {
+    border-bottom: 1px solid grey;
+}
+
+.menu ul {
+    list-style-type: none;
+
+}
+
+.menu ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #1e90ff;
+}
+
+.menu ul li a:hover {
+    color: #ff4757;
+}
+
+.menu ul li {
+    display: inline;
+    padding: 1%;
+
+}
+
+
+/* Css for main content */
+.main-content {
+    padding: 3% 0;
+    background-color: #f1f2f6;
+}
+
+.col-4 {
+    width: 18%;
+    background-color: white;
+    margin: 1%;
+    padding: 2%;
+    float: left;
+}
+
+.login {
+    border: 1px solid grey;
+    width: 30%;
+    margin: 10% auto;
+    padding: 2%;
+}
+
+/* Footer Css */
+.footer {
+    background-color: #2f3542;
+    color: white;
+
+
+}
